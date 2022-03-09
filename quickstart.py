@@ -7,7 +7,7 @@ import gspread
 
 gauth = GoogleAuth()
 drive = GoogleDrive(gauth)
-gc = gspread.service_account(filename= '/Users/admin/Desktop/python scripts/project2/service_account.json' )
+gc = gspread.service_account(filename= '/Users/admin/Desktop/python scripts/project2/service_account.json' ) #path for credentials
 
 
 folder = '1_6xDE5HJtUdlr9Tmr36ASot2vvLzY8LP'
